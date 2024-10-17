@@ -32,7 +32,7 @@ $ terraform apply -auto-approve
 **upload_new_index.tf**: 새로운 HTML 파일을 생성하거나 기존 인덱스 파일을 업데이트하는 작업을 정의한다.<br>
 **modify_index.tf**: AWS 리소스나 HTML 파일의 인덱스를 수정하거나 갱신하는 작업을 정의한다.<br>
 
-**iampolicy.tf**: EC2 인스턴스가 S3에 접근할 수 있는 IAM 역할과 정책을 설정한다.<br>
+**iampolicy2.tf**: EC2 인스턴스가 S3에 접근할 수 있는 IAM 역할과 정책을 설정한다.<br>
 **vpc.tf**: AWS 네트워크 인프라를 위한 VPC를 생성한다.<br>
 **web-subnets.tf**: 외부에서 접근 가능한 두 개의 퍼블릭 서브넷을 생성한다.<br>
 **-subnets.tf**: 두 개의 프라이빗 애플리케이션 서브넷을 생성한다.<br>
